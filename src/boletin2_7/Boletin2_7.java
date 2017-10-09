@@ -14,7 +14,7 @@ public class Boletin2_7 {
         
         centigrado=entradagrados.nextFloat();
         
-        System.out.println("Son tantos grados Kelvin " + (centigrado * 283) + " son tantos grados Farenheit " + (1.8*centigrado +32));
+        System.out.println("Son tantos grados Kelvin " + (centigrado + 273) + " son tantos grados Farenheit " + (1.8*centigrado +32));
     }
     
 }
